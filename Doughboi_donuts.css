@@ -74,7 +74,7 @@ img {
 } */
   }
 
-.feedback {
+/* .feedback {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +97,7 @@ input[type=submit] {
     width: 50%;
     padding: 2%;
     margin-bottom: 10%;
-}   
+}    */
 
 .links {
     display:flex;
