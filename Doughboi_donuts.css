@@ -53,6 +53,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding-bottom: 10%;
 }
 
 img {
@@ -60,16 +61,63 @@ img {
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    animation-duration: 3.5s;
+    animation-name: slidein;
+}
 
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+}
+    /* to {
+      margin-left: 100%;
+} */
+  }
+
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: small;
+}
+
+  input[type=text], input[type=email] {
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 2%;
+    margin-bottom: 10%;
+}   
+
+.links {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
 }
 
 .footer {
     display: flex;
     padding: 0.5%;
+    margin-top: 1%;
     text-align: center;
     background: black;
     color: whitesmoke;
-    font-size: x-small;
+    font-size: small;
     justify-content: center;
     }
 
