@@ -67,12 +67,12 @@ img {
 
 @keyframes slidein {
     from {
-      margin-right: 100%;
+    margin-right: 100%;
 }
     /* to {
-      margin-left: 100%;
+margin-left: 100%;
 } */
-  }
+}
 
 /* .feedback {
     display: flex;
@@ -84,7 +84,7 @@ h3 {
     font-size: small;
 }
 
-  input[type=text], input[type=email] {
+input[type=text], input[type=email] {
     padding: 2px 2px;
     margin: 8px 0;
     border: none;
